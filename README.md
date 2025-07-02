@@ -1,4 +1,4 @@
-# ML-Learning-Daily
+
 # 🧠 ML Learning Daily 🚀
 
 Welcome to my **Machine Learning Learning Journey**! This repository is my public commitment to learn and practice ML consistently — one day at a time.
