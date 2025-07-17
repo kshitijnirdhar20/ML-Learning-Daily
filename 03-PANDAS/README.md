@@ -1,41 +1,58 @@
-# 📘 Pandas Practice Notebooks
+# 🐼 Pandas Data Wrangling Notebooks
 
-This repository contains essential **Pandas notebooks** that form the backbone of data wrangling, analysis, and preprocessing in Python.
+A comprehensive collection of Jupyter notebooks covering essential Pandas operations for data analysis and manipulation.
 
-These notebooks walk you through the most important features of Pandas with practical examples and hands-on practice.
+## 📚 Notebook Overview
 
----
+### 1. Foundations
+- `basics_pandas.ipynb`: Core Pandas operations including:
+  - Reading data from CSV, Excel, and JSON
+  - Creating DataFrames from dictionaries
+  - Exporting data to various formats
 
-## 📂 Contents
+### 2. Data Exploration
+- `columns_prop.ipynb`: Working with DataFrame columns:
+  - Adding/inserting columns
+  - Modifying column values
+  - Handling missing data
+  - Column operations and transformations
 
-| Notebook | Description |
-|----------|-------------|
-| `basics_pandas.ipynb` | Introduction to Pandas, Series and DataFrame creation |
-| `columns_prop.ipynb` | Explore column properties, datatypes, and data summaries |
-| `selecting_filtering.ipynb` | Techniques for selecting rows/columns, conditional filtering, and slicing |
-| `useful_methods.ipynb` | Useful Pandas methods for cleaning, transforming, and analyzing data |
+### 3. Data Selection
+- `selecting_filtering.ipynb`: Techniques for:
+  - Column selection (single/multiple)
+  - Conditional filtering
+  - Boolean indexing
+  - Complex query operations
 
----
+### 4. Data Transformation
+- `sorting_aggregation.ipynb`: 
+  - Sorting data (single/multiple columns)
+  - Aggregation functions (mean, sum, etc.)
+  - GroupBy operations
+  - Multi-level grouping
 
-## 🎯 Objective
+### 5. Data Cleaning
+- `drop_fill_interpolate.ipynb`:
+  - Handling missing values
+  - Dropping NA values
+  - Filling strategies
+  - Interpolation methods
 
-To build practical experience in:
+### 6. Data Integration
+- `merging_joining_concat.ipynb`:
+  - Concatenation (vertical/horizontal)
+  - Merging DataFrames
+  - Join operations (inner, outer, left, right)
 
-- ✅ Creating and exploring Pandas Series and DataFrames  
-- ✅ Indexing, selecting, and filtering data  
-- ✅ Understanding and applying useful Pandas methods  
-- ✅ Preparing data for analysis and machine learning  
+### 7. Essential Methods
+- `useful_methods.ipynb`: Key DataFrame methods:
+  - head()/tail() for data inspection
+  - info() for metadata
+  - describe() for statistics
+  - Shape and column attributes
 
-These notebooks are ideal for learners transitioning from NumPy to full-fledged **data analysis workflows** using Pandas.
+## 🛠️ Usage
 
----
-
-## 📌 Author
-
-Made with 🧠 and ☕ by [Kshitij Nirdhar](https://github.com/kshitijnirdhar20)
-
----
-
-## 💡 Tip
-
-Run these notebooks in **Jupyter** or **Google Colab** to explore, modify, and learn actively. These fundamentals are critical for any data or ML project.
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/yourusername/pandas-practice.git
